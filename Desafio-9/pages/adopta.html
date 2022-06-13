@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/corarojo.svg">
+    <title>Adopta</title>
+</head>
+<body class="contenedor">
+    <nav class="navbar">
+        <img src="../assets/img/logo-blanco.svg" class="TamanoCoraBlanco">
+        <div>
+            <a href="../index.html">
+                <h3>Inicio</h3>
+            </a>
+            <a href="./adopta.html">
+                <h3>Adopción</h3>
+            </a>
+            <a href="./servicios.html">
+                <h3>Servicios</h3>
+            </a>
+            <a href="./nosotros.html">
+                <h3>Nosotros</h3>
+            </a>
+            <a href="./contacto.html">
+                <h3>Contacto</h3>
+            </a>
+        </div>
+    </nav>
+
+    <header class="portadaGeneral" id="imagenAdopcion"></header>
+
+    <main class="gridsAgregadas">
+        <div class="dentroDeUnaGrid">
+            <h2 class="titulos">Nuestros héroes</h2>
+        </div>
+        <!-- Desplegable de celular -->
+        <div class="celular">
+            <div class="buscador">
+                <h3>Buscar</h3>
+            </div>
+            <div class="dentroDeUnaGrid">
+                <select name="filtro" class="filtro">
+                    <option value="fpe">Filtrar por especie</option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="gallo">Gallo</option>
+                    <option value="conejo">Conejo</option>
+                </select>
+                <select name="filtro" class="filtro">
+                    <option value="fps">Filtrar por sexo</option>
+                    <option value="H">Hembra</option>
+                    <option value="M">Macho</option>
+                </select>
+                <select name="filtro" class="filtro">
+                    <option value="fpt">Filtrar por tamaño</option>
+                    <option value="mini">Mini</option>
+                    <option value="pequeño">Pequeño</option>
+                    <option value="mediano">Mediano</option>
+                    <option value="grande">Grande</option>
+                    <option value="gigante">Gigante</option>
+                </select>
+            </div>
+        </div>
+    </main>
+
+    <aside class="filtroEscritorio">
+        <!-- Filtros para escritorio -->
+        <div class="buscadorEscritorio">
+            <h3 class="textoBuscar">Buscar</h3>
+        </div>
+        <div class="contenedorFiltros">
+            <div>
+                <h3 class="titulosDeFiltros">Filtrar por especie</h3>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro" id="perro" value="Perro">
+                <label for="filtro" class="ListaFiltros">Perro</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro" id="gato" value="Gato">
+                <label for="filtro" class="ListaFiltros">Gato</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro" id="gallo" value="Gallo">
+                <label for="filtro" class="ListaFiltros">Gallo</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro" id="conejo" value="Conejo">
+                <label for="filtro" class="ListaFiltros">Conejo</label>
+            </div>
+        </div>
+        <!-- Bloque 2 de filtros -->
+        <div class="contenedorFiltros">
+            <div>
+                <h3 class="titulosDeFiltros">Filtrar por sexo</h3>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro2" id="hembra" value="Hembra">
+                <label for="filtro2" class="ListaFiltros">Hembra</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro2" id="macho" value="Macho">
+                <label for="filtro2" class="ListaFiltros">Macho</label>
+            </div>
+        </div>
+        <!-- Bloque 3 de filtros -->
+        <div class="contenedorFiltros">
+            <div>
+                <h3 class="titulosDeFiltros">Filtrar por tamaño</h3>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro3" id="mini" value="Mini">
+                <label for="filtro3" class="ListaFiltros">Mini</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro3" id="pequeno" value="Pequeño">
+                <label for="filtro3" class="ListaFiltros">Pequeño</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro3" id="mediano" value="Mediano">
+                <label for="filtro3" class="ListaFiltros">Mediano</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro3" id="grande" value="Grande">
+                <label for="filtro3" class="ListaFiltros">Grande</label>
+            </div>
+            <div class="listaNombres">
+                <input type="radio" name="filtro3" id="gigante" value="Gigante">
+                <label for="filtro3" class="ListaFiltros">Gigante</label>
+            </div>
+        </div>
+    </aside>
+
+    <aside class="adoptarContenedorCelular">
+        <div class="margenBajo">
+            <button class="recInclinadoIzq">
+                <a href="./perfil.html">
+                    <img src="../assets/img/gordon_2.jpg" class="imgPosicionIzq">
+                    <h3 class="textIncliIzq">Gordon</h3>
+                </a>
+            </button>
+        </div>
+        <div class="margenBajo">
+            <button class="recInclinadoDrch">
+                <a href="./perfil.html">
+                    <img src="../assets/img/marte_1.jpg" class="imgPosocionDrch">
+                    <h3 class="textIncliDrch">Marte</h3>
+                </a>
+            </button>
+        </div>
+        <div class="margenBajo">
+            <button class="recInclinadoIzq">
+                <a href="./perfil.html">
+                    <img src="../assets/img/timoteo_4.jpeg" class="imgPosicionIzq">
+                    <h3 class="textIncliIzq">Timoteo</h3>
+                </a>
+            </button>
+        </div>
+</aside>
+    
+    <aside class="adoptarContenedorEscritorio">
+        
+                <button class="recInclinadoIzq2">
+                    <a href="./perfil.html">
+                        <img src="../assets/img/gordon_2.jpg" class="imgPosicionIzq2">
+                        <h3 class="textIncliIzq2">Gordon</h3>
+                    </a>
+                </button>
+        
+        
+                <button class="recInclinadoDrch2">
+                    <a href="./perfil.html">
+                        <img src="../assets/img/marte_1.jpg" class="imgPosocionDrch2">
+                        <h3 class="textIncliDrch2">Marte</h3>
+                    </a>
+                </button>
+            
+                <button class="recInclinadoIzq2">
+                    <a href="./perfil.html">
+                        <img src="../assets/img/timoteo_4.jpeg" class="imgPosicionIzq2">
+                        <h3 class="textIncliIzq2">Timoteo</h3>
+                    </a>
+                </button>
+        
+    </aside>
+
+    <footer>
+        <div class="dentroDeUnaGrid">
+            <img src="../assets/img/logo-blanco.svg" alt="">
+        </div>
+        <div>
+            <p class="politicasFooter">
+                Política de privacidad
+                <br>
+                Política de cookies
+            </p>
+        </div> 
+        <div class="contenedorRedes">
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/img/face.svg" class="tamanosRS">
+            </a>
+            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/img/insta.svg" class="tamanosRS">
+            </a>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/img/twitter.svg" class="tamanosRS">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
