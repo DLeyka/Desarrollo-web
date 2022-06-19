@@ -12,55 +12,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/corarojo.svg">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
-    <title>Lovely Pets</title>
+    <title>Marte</title>
 </head>
 <body class="container-fluid">
     <!-- Menù -->
     <nav class="navbar row banner bg-fondo_guinda" style="background-color: #37b9c6;">
         <div class="container">
-        <a class="navbar-brand" href="../index.html">Lovley Pets</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html">Lovley Pets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
             <ul class="navbar-nav">
-            <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./adopcion.html">Adopción</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="./nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </nav>
-
-    <!-- Portada -->
-    <header class="row coverNosotros justify-content-center align-items-center">
+      </nav>
+    
+    <!-- Titulo - Nombre del héroe -->
+    <header class="row mt-5 mb-2 justify-content-center">
+        <h2 class="nombreDeHeroe text-center col-10">Marte</h2>
+        <p class="textoPrincipalCel col-10">Marte es un gatazo imponente, con un carácter dominante y que se merece una oportunidad en un nuevo hogar. Dado su temperamento, el perfil de adoptante debería responder al de alguien con sobrada experiencia en el manejo y cuidado de gatos.</p>
     </header>
 
-    <!-- Bloque 1 Texto -->
-    <main class="row justify-content-center">
-        <div class="fondoTextNosotros col-11 mt-5 mb-5">
-            <img src="../assets/img/logo-pets.svg" class="logoNosotros">
-            <p class="textoPrincipalCel">Lovely Pets promueve y facilita la adopción de cualquier animal doméstico que se encuentre disponible a tal efecto en el Centro de Protección Animal (CPA) de Madrid Salud.
-                <br>
-                <br>
-            Se pueden adoptar tanto a perros y a gatos, como a animales de otras especies que una vez aplicados los protocolos veterinarios adquieran la condición de adoptables.
-            </p>
-        </div>
+    <main class="row mb-2 justify-content-center">
+        <h2 class="text-center tituloPrincipalCel">Descripción</h2>
+        <ul class="listaDescripcion col-10">
+            <li><strong>Sexo:</strong> Macho</li>
+            <li><strong>Raza:</strong> Común Europeo</li>
+            <li><strong>Fecha de nacimiento 
+                (APROXIMADA):</strong> 10/02/2020</li>
+            <li><strong>Tamaño adulto:</strong> Grande</li>
+            <li><strong>Peso:</strong> 5 kg</li>
+            <li><strong>Alzada:</strong> 22 cm</li>
+            <li><strong>Fecha de ingreso:</strong> 10/02/2022</li>
+        </ul>
     </main>
 
-    <aside></aside>
+    <aside class="row mb-2 justify-content-center">
+        <div class="galeriaHeroe col-10">
+            <img src="../assets/img/marte_1.jpg" alt="">
+            <button class="flechaPerfil d-flex align-items-center"><img src="../assets/img/flecha.svg" alt=""></button>
+            <button class="flechaPerfil d-flex align-items-center"><img src="../assets/img/flechadrch.svg" alt=""></button>
+        </div>
+    </aside>
+
+    <aside class="row mt-3 mb-2 justify-content-center">
+      <p class="textoPrincipalCel col-10">
+        <strong>Otra información:</strong> Los animales se entregan identificados, desparasitados, con las vacunas obligatorias y esterilizados o con el compromiso de esterilización. Todos los trámites y tratamientos son gratuitos. (La identificación con microchip es obligatoria en perros, gatos, conejos, hurones y équidos. La vacuna de la rabia es obligatoria en perros mayores de 3 meses).
+    </p>
+    </aside>
 
     <!-- Footer -->
     <footer class="footer row justify-content-around align-items-center" style="background-color: #2B3443">
@@ -84,9 +100,8 @@
             </h3>
         </div>
     </footer>
-    
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 </html>

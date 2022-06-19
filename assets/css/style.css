@@ -1,0 +1,548 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+/* Portada */ 
+.cover {
+    background-image: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5)),url(../img/homecel.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.textoPortada1 {
+    margin-top: 210px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+
+    color: #fff;
+}
+
+.textoPortada2 {
+    margin-top: -30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botonPrincipal {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px 20px;
+
+    color: #fff;
+
+    background: #E74F5C;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    border: 0;
+}
+
+.botonPrincipal:hover {
+    background-color: #37b9c6;
+}
+
+/* Bloque 1 Adopta */ 
+.tituloPrincipalCel {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    
+    color: #2B3443;
+}
+
+.textoPrincipalCel {
+    padding-top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    
+    color: #2B3443;
+}
+
+/* Bloque 2 Nuestros Heroes */
+.textHeroes {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    
+    color: #34B785;
+}
+
+.tamanoFlecha {
+    width: 51px;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 0;
+}
+
+    /* Imagen */
+.recInclinadoDrch{
+    width: 219.44px;
+    height: 249.96px;
+        
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(6.07deg);
+    border: 0;
+}
+
+.recInclinadoDrch:hover {
+    background: #D9D9D9;
+}
+
+.imgPosocionDrch {
+    width: 179.43px;
+    transform: rotate(0.05deg);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.textIncliDrch {
+    position: absolute;
+    width: 84px;
+    left: 20px;
+    top: 200px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+        
+    color: #34B785;
+        
+    transform: rotate(0.10deg);
+}
+
+/* Imagenes izquierda */
+.recInclinadoIzq {
+    width: 219.44px;
+    height: 249.96px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-9.34deg);
+    border: 0;
+}
+
+.recInclinadoIzq:hover {
+    background: #D9D9D9;
+}
+
+.imgPosicionIzq{
+    width: 179.43px;
+    transform: rotate(0.10deg);
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.textIncliIzq{
+    position: absolute;
+    width: 84px;
+    left: 20px;
+    top: 195px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+        
+    color: #34B785;
+        
+    transform: rotate(0.10deg);
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+
+    color: #E74F5C;
+}
+
+.botonServiciosCel {
+    background-color: transparent !important;
+    border: 0;
+    margin: 15px 0;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #E74F5C;
+}
+
+/* Footer */
+.politicas {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Adopta */
+/* Portada */
+.coverAdopta{
+    background-image: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5)),url(../img/adoptar.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+/* Filtros */
+.buscador {
+    padding: 10px 20px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    margin: 0 25px 20px;
+}
+
+.filtro{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid #a9a9a9;
+    color: #a9a9a9;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Servicios */
+/* Portada */
+.coverServicio {
+    background-image: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5)),url(../img/servicios.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.accordionMenu{
+    width: 90%;
+    margin: 0 auto;
+}
+.accordionMenu input[type=radio]{
+    display: none;
+}
+.accordionMenu label{
+    margin: 15px;
+    display: block;
+    line-height: 47px;
+    padding: 20px;
+    background: #F5F5F5;;
+    font-size: 18px;
+    color: #2B3443;
+    position: relative;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.accordionMenu label::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #2B3443;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordionMenu .content{
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.accordionMenu .content .inner{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+
+    font-size: 1.2rem;
+    color: #2B3443;
+    line-height: 1.5;
+    background: #F5F5F5;
+    padding: 30px 30px;
+
+    border-radius: 40px;
+}
+
+.accordionMenu input[type=radio]:checked + label:after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.accordionMenu input[type=radio]:checked + label + .content{
+    max-height: 2000px;
+    height: auto;
+}
+
+.botonGeneralLargo {
+    margin: 50px 0 0;
+    padding: 17px;
+
+    /* Texto */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    /* Boton */
+    border-radius: 54px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E74F5C;
+}
+
+aside div div ol li {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 10px 15px;
+
+    color: #2B3443;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Nosotros */
+/* Portada */
+.coverNosotros {
+    background-image: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5)),url(../img/nosotros.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.fondoTextNosotros {
+    background: #F5F5F5;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Contacto */
+/* Portada */
+.coverContacto {
+    background-image: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5)),url(../img/contacto.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.StyleDatos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 17px;
+    padding: 15px;
+
+    color: #ADBED9;
+
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    border: 0;
+}
+
+.mensaje {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    height: 410px;
+    padding: 25px;
+
+    color: #ADBED9;
+
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border: 0;
+}
+
+.botonGeneral {
+    margin: 20px 20px;
+    width: 183px;
+    height: 58px;
+
+    /* Texto */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    /* Boton */
+    border-radius: 54px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E74F5C;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Perfil */
+.nombreDeHeroe {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    
+    color: #2B3443;
+}
+
+.listaDescripcion {
+    list-style: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    
+    color: #2B3443;
+}
+
+.galeriaHeroe {
+    width: 297px;
+    height: 369px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.galeriaHeroe img {
+    width: 254px;
+    height: 254px;
+}
+
+.flechaPerfil {
+    width: 50px;
+    height: 50px;
+    fill: none;
+    border: none;
+}
+
+.flechaPerfil img {
+    width: 20px;
+}
