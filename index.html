@@ -46,7 +46,13 @@
     
     <!-- Portada -->
     <header class="row cover justify-content-center align-items-center">
-        <div class="text-center">
+        <div class="text-center d-lg-none">
+            <h2 class="textoPortada1">Encuentra a tu nuevo</h2>
+            <h1 class="textoPortada2">Mejor Amigo</h1>
+            <button class="botonPrincipal"><a href="">Adoptar</a></button>
+        </div>
+        <!-- Portada de escritorio -->
+        <div class="text-left d-none d-lg-block">
             <h2 class="textoPortada1">Encuentra a tu nuevo</h2>
             <h1 class="textoPortada2">Mejor Amigo</h1>
             <button class="botonPrincipal"><a href="">Adoptar</a></button>
@@ -56,9 +62,9 @@
     <!-- Bloque 1 Adopta -->
     <main class="container mt-5 mb-5 justify-content-center">
         <div class="row justify-content-center">
-            <img class="d-none" src="./assets/img/corarojo.svg" alt="">
-            <h2 class="text-center tituloPrincipalCel">Adopta: ganamos todos</h2>
-            <p class="textoPrincipalCel">La adopción es una alternativa que la hora de adquirir un animal de compañía beneficia a todos: a la familia, a las entidades de protección animal y, 
+            <img class="corazonRojo d-none d-lg-block col-lg-2" src="./assets/img/corarojo.svg" alt="">
+            <h2 class="tituloPrincipalCel col-lg-8">Adopta: ganamos todos</h2>
+            <p class="textoPrincipalCel col-lg-10">La adopción es una alternativa que la hora de adquirir un animal de compañía beneficia a todos: a la familia, a las entidades de protección animal y, 
             por supuesto, al propio perro o gato.</p>
         </div>
     </main>
@@ -66,25 +72,25 @@
     <!-- Bloque 2 Nuestros heroes -->
     <main>
         <div class="row justify-content-around align-items-center">
-            <h2 class="textHeroes text-center col-11">Nuestros héroes</h2>
+            <h2 class="textHeroes text-center col-11 col-lg-12">Nuestros héroes</h2>
             <button class="tamanoFlecha pt-2 pb-2 mt-3 mb-1 col-4"><img src="./assets/img/flecha.svg" alt=""></button>
             <button class="tamanoFlecha pt-2 pb-2 mt-3 mb-1 col-4"><img src="./assets/img/flechadrch.svg" alt=""></button>
         </div>
         <div class="row mt-5 mb-5 justify-content-around align-items-center">
-            <button class="recInclinadoIzq mt-3 mb-5 col-10">
+            <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
                 <a href="./pages/perfil.html">
                     <img src="./assets/img/gordon_2.jpg" class="imgPosicionIzq">
                     <h3 class="textIncliIzq">Gordon</h3>
                 </a>
             </button>
-            <button class="recInclinadoDrch mt-3 mb-5 d-none col-10">
-                <a href="#">
+            <button class="recInclinadoDrch mt-3 mb-5 d-none d-lg-block col-10 col-lg-4">
+                <a href="./pages/perfil.html">
                     <img src="./assets/img/marte_1.jpg" class="imgPosocionDrch">
                     <h3 class="textIncliDrch">Marte</h3>
                 </a>
             </button>
-            <button class="recInclinadoIzq mt-3 mb-5 d-none col-10">
-                <a href="#">
+            <button class="recInclinadoIzq mt-3 mb-5 d-none d-lg-block col-10 col-lg-4">
+                <a href="./pages/perfil.html">
                     <img src="./assets/img/timoteo_4.jpeg" class="imgPosicionIzq">
                     <h3 class="textIncliIzq">Timoteo</h3>
                 </a>
@@ -92,42 +98,54 @@
         </div>
     </main>
 
-    <aside class="container mt-5 mb-5 justify-content-center">
-        <img class="d-none" src="./assets/img/corarojo.svg" alt="">
-        <h2 class="text-center tituloPrincipalCel">Conoce a Lovely Pets</h2>
-        <p class="textoPrincipalCel">Lovely Pets promueve y facilita la adopción de cualquier animal doméstico que se encuentre disponible a tal efecto en el Centro de Protección Animal (CPA) de Madrid Salud.
-        <br>
-        <br>
-        Se pueden adoptar tanto a perros y a gatos, como a animales de otras especies que una vez aplicados los protocolos veterinarios adquieran la condición de adoptables.</p>
+    <!-- Conoce a Lovely Pets -->
+    <aside class="row mt-5 mb-5 justify-content-center">
+        <div class="row col-lg-7 m-4">
+            <img class="corazonRojo d-none d-lg-block col-lg-2" src="./assets/img/corarojo.svg" alt="">
+            <h2 class="text-center tituloPrincipalLove col-lg-8">Conoce a Lovely Pets</h2>
+            <p class="textoPrincipalCel">Lovely Pets promueve y facilita la adopción de cualquier animal doméstico que se encuentre disponible a tal efecto en el Centro de Protección Animal (CPA) de Madrid Salud.
+            <br>
+            <br>
+            Se pueden adoptar tanto a perros y a gatos, como a animales de otras especies que una vez aplicados los protocolos veterinarios adquieran la condición de adoptables.</p>
+        </div>
+        <div class="d-none d-lg-block col-lg-4 mt-5">
+            <button class="recInclinadoDrch mt-5">
+                <a href="./pages/nosotros.html">
+                    <img src="./assets/img/edificio.jpg" class="imgPosocionDrch">
+                </a>
+            </button>
+            <img src="./assets/img/cinta.svg" class="cintaAdesiva" id="cintaAdesiva1">
+            <img src="./assets/img/cinta.svg" class="cintaAdesiva" id="cintaAdesiva2">
+        </div>
     </aside>
 
     <!-- Servicio de Lovely Pets -->
     <aside class="container mt-5 justify-content-center">
         <h2 class="text-center tituloServiciosCel">Servicio de Lovely Pets</h2>
-        <div class="row mt-5 mb-5 justify-content-around align-items-center">
-            <button class="botonServiciosCel col-10"><a href=""><img src="./assets/img/corarojo.svg" alt="" class="d-none corazonRojo">Localización</a></button>
-            <button class="botonServiciosCel col-10"><a href=""><img src="./assets/img/corarojo.svg" alt="" class="d-none corazonRojo">Esterilización</a></button>
-            <button class="botonServiciosCel col-10"><a href=""><img src="./assets/img/corarojo.svg" alt="" class="d-none corazonRojo">Incidencias</a></button>
-            <button class="botonServiciosCel col-10"><a href=""><img src="./assets/img/corarojo.svg" alt="" class="d-none corazonRojo">Precausiones</a></button>
-            <button class="botonServiciosCel col-10"><a href=""><img src="./assets/img/corarojo.svg" alt="" class="d-none corazonRojo">Géstion</a></button>
+        <div class="row mt-5 mb-5 justify-content-center align-items-center">
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Localización</a></button>
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Esterilización</a></button>
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Incidencias</a></button>
+            <button class="botonServiciosCel col-10 col-lg-4"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Precausiones</a></button>
+            <button class="botonServiciosCel col-10 col-lg-4"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Géstion</a></button>
         </div>
     </aside>
 
     <!-- Footer -->
     <footer class="footer row justify-content-around align-items-center" style="background-color: #2B3443">
-        <div class="pt-4 pb-4 col-11">
+        <div class="pt-4 pb-4 col-11 col-lg-3">
             <img src="./assets/img/logo-blanco.svg" alt="">
         </div>
-        <a class="col-2" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a class="col-2 col-lg-1" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/face.svg" class="tamanosRS">
         </a>
-        <a class="col-2" href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a class="col-2 col-lg-1" href="http://instagram.com" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/insta.svg" class="tamanosRS">
         </a>
-        <a class="col-2" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a class="col-2 col-lg-1" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/twitter.svg" class="tamanosRS">
         </a>
-        <div class="mt-4 mb-4 col-11">
+        <div class="mt-4 mb-4 col-11 col-lg-3">
             <h3 class="politicas">
                 Política de privacidad
                     <br>
