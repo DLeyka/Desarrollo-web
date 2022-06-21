@@ -11,22 +11,155 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/img/corarojo.svg">
-    <link rel="stylesheet" type="text/css" href="./assets/img/corarojo.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Lovely Pets</title>
 </head>
-<body>
-    <nav></nav>
+<body class="container-fluid">
+    <!-- Menù -->
+    <nav class="navbar row banner bg-fondo_guinda" style="background-color: #37b9c6;">
+        <div class="container">
+          <a class="navbar-brand" href="#">Lovley Pets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/adopcion.html">Adopción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Portada -->
+    <header class="row cover justify-content-center align-items-center" data-aos="fade-up">
+        <div class="text-center d-lg-none">
+            <h2 class="textoPortada1">Encuentra a tu nuevo</h2>
+            <h1 class="textoPortada2">Mejor Amigo</h1>
+            <button class="botonPrincipal"><a href="">Adoptar</a></button>
+        </div>
+        <!-- Portada de escritorio -->
+        <div class="text-left d-none d-lg-block" data-aos="fade-up">
+            <h2 class="textoPortada1">Encuentra a tu nuevo</h2>
+            <h1 class="textoPortada2">Mejor Amigo</h1>
+            <button class="botonPrincipal"><a href="">Adoptar</a></button>
+        </div>
+    </header>
 
-    <header></header>
+    <!-- Bloque 1 Adopta -->
+    <main class="container mt-5 mb-5 justify-content-center" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <img class="corazonRojo d-none d-lg-block col-lg-2" src="./assets/img/corarojo.svg" alt="">
+            <h2 class="tituloPrincipalCel col-lg-8">Adopta: ganamos todos</h2>
+            <p class="textoPrincipalCel col-lg-10">La adopción es una alternativa que la hora de adquirir un animal de compañía beneficia a todos: a la familia, a las entidades de protección animal y, 
+            por supuesto, al propio perro o gato.</p>
+        </div>
+    </main>
 
-    <main></main>
+    <!-- Bloque 2 Nuestros heroes -->
+    <main>
+        <div class="row justify-content-around align-items-center" data-aos="fade-up">
+            <h2 class="textHeroes text-center col-11 col-lg-12">Nuestros héroes</h2>
+            <button class="tamanoFlecha pt-2 pb-2 mt-3 mb-1 col-4"><img src="./assets/img/flecha.svg" alt=""></button>
+            <button class="tamanoFlecha pt-2 pb-2 mt-3 mb-1 col-4"><img src="./assets/img/flechadrch.svg" alt=""></button>
+        </div>
+        <div class="row mt-5 mb-5 justify-content-around align-items-center" data-aos="fade-up">
+            <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+                <a href="./pages/perfil.html">
+                    <img src="./assets/img/gordon_2.jpg" class="imgPosicionIzq">
+                    <h3 class="textIncliIzq">Gordon</h3>
+                </a>
+            </button>
+            <button class="recInclinadoDrch mt-3 mb-5 d-none d-lg-block col-10 col-lg-4">
+                <a href="./pages/perfil.html">
+                    <img src="./assets/img/marte_1.jpg" class="imgPosocionDrch">
+                    <h3 class="textIncliDrch">Marte</h3>
+                </a>
+            </button>
+            <button class="recInclinadoIzq mt-3 mb-5 d-none d-lg-block col-10 col-lg-4">
+                <a href="./pages/perfil.html">
+                    <img src="./assets/img/timoteo_4.jpeg" class="imgPosicionIzq">
+                    <h3 class="textIncliIzq">Timoteo</h3>
+                </a>
+            </button>
+        </div>
+    </main>
 
-    <aside></aside>
+    <!-- Conoce a Lovely Pets -->
+    <aside class="row mt-5 mb-5 justify-content-center" data-aos="fade-up">
+        <div class="row col-lg-7 m-4">
+            <img class="corazonRojo d-none d-lg-block col-lg-2" src="./assets/img/corarojo.svg" alt="">
+            <h2 class="text-center tituloPrincipalLove col-lg-8">Conoce a Lovely Pets</h2>
+            <p class="textoPrincipalCel">Lovely Pets promueve y facilita la adopción de cualquier animal doméstico que se encuentre disponible a tal efecto en el Centro de Protección Animal (CPA) de Madrid Salud.
+            <br>
+            <br>
+            Se pueden adoptar tanto a perros y a gatos, como a animales de otras especies que una vez aplicados los protocolos veterinarios adquieran la condición de adoptables.</p>
+        </div>
+        <div class="d-none d-lg-block col-lg-4 mt-5">
+            <button class="recInclinadoDrch mt-5">
+                <a href="./pages/nosotros.html">
+                    <img src="./assets/img/edificio.jpg" class="imgPosocionDrch">
+                </a>
+            </button>
+            <img src="./assets/img/cinta.svg" class="cintaAdesiva" id="cintaAdesiva1">
+            <img src="./assets/img/cinta.svg" class="cintaAdesiva" id="cintaAdesiva2">
+        </div>
+    </aside>
 
-    <footer></footer>
+    <!-- Servicio de Lovely Pets -->
+    <aside class="container mt-5 justify-content-center" data-aos="fade-up">
+        <h2 class="text-center tituloServiciosCel">Servicio de Lovely Pets</h2>
+        <div class="row mt-5 mb-5 justify-content-center align-items-center">
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Localización</a></button>
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Esterilización</a></button>
+            <button class="botonServiciosCel col-10 col-lg-3"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Incidencias</a></button>
+            <button class="botonServiciosCel col-10 col-lg-4"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Precausiones</a></button>
+            <button class="botonServiciosCel col-10 col-lg-4"><a href="./pages/servicios.html"><img src="./assets/img/corarojo.svg" alt="" class="d-none d-lg-block corazonRojo margenServicio">Géstion</a></button>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer row justify-content-around align-items-center" style="background-color: #2B3443">
+        <div class="pt-4 pb-4 col-11 col-lg-3">
+            <img src="./assets/img/logo-blanco.svg" alt="">
+        </div>
+        <a class="col-2 col-lg-1" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/face.svg" class="tamanosRS">
+        </a>
+        <a class="col-2 col-lg-1" href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/insta.svg" class="tamanosRS">
+        </a>
+        <a class="col-2 col-lg-1" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/twitter.svg" class="tamanosRS">
+        </a>
+        <div class="mt-4 mb-4 col-11 col-lg-3">
+            <h3 class="politicas">
+                Política de privacidad
+                    <br>
+                Política de cookies
+            </h3>
+        </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
