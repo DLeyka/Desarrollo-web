@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Colores */
+/* Sombras */
+/* Rotaciones (inclinaciones) */
+/* Portada de celular */
+.portadaInicioCel {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/homecel.jpg);
+  height: 600px;
+  background-size: cover;
+}
+
+/* Textos de portada de celular */
+.textoPortada1 {
+  margin-top: 210px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.textoPortada2 {
+  margin-top: -30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 65px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Bloque 1 Adopta */
+.tituloPrincipal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+.textoPrincipal {
+  padding-top: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #2B3443;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.textHeroes {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #34B785;
+}
+
+/* Imagenes derecha */
+.textIncliDrch {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 200px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Imagenes izquierda */
+.textIncliIzq {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 195px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Conoce a Lovely Pets */
+.tituloPrincipalLove {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #E74F5C;
+}
+
+/* Footer */
+.politicas {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+header div button a {
+  text-decoration: none;
+  color: #fff;
+}
+header div button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Boton de portada, tal vez principal */
+.botonPrincipal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #E74F5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+}
+
+.botonPrincipal:hover {
+  background-color: #37b9c6;
+  color: #fff;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.tamanoFlecha {
+  width: 51px;
+  background-color: #F9F9F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  border: 0;
+}
+
+/* Botón de tarjeta derecha */
+.recInclinadoDrch {
+  width: 219.44px;
+  height: 249.96px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(6.07deg);
+  border: 0;
+}
+
+/* Botón de tarjeta izquierda */
+.recInclinadoIzq {
+  width: 219.44px;
+  height: 249.96px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-9.34deg);
+  border: 0;
+}
+
+.recInclinadoIzq:hover {
+  background: #D9D9D9;
+}
+
+/* Servicio de Lovely Pets */
+aside div .botonServiciosCel a {
+  text-decoration: none;
+  color: #E74F5C;
+}
+aside div .botonServiciosCel a:hover {
+  text-decoration: none;
+  color: #2B3443;
+}
+
+.botonServiciosCel {
+  background-color: transparent !important;
+  border: 0;
+  margin: 15px 0;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #E74F5C;
+}
+
+/* Imagenes derecha */
+.imgPosocionDrch {
+  width: 179.43px;
+  transform: rotate(0.05deg);
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+/* Imagenes izquierda */
+.imgPosicionIzq {
+  width: 179.43px;
+  transform: rotate(0.1deg);
+  padding-top: 15px;
+  padding-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */

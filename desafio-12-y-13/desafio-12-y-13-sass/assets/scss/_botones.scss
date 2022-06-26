@@ -1,0 +1,103 @@
+header {
+    div {
+        button {
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: #fff; 
+            }
+        }
+    }
+}
+
+
+/* Boton de portada, tal vez principal */
+.botonPrincipal {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px 20px;
+
+    color: #fff;
+
+    background: $colorTerciario;
+    box-shadow: $sombra;
+    border-radius: 54px;
+    border: 0;
+}
+
+.botonPrincipal:hover {
+    background-color: #37b9c6;
+    color: #fff;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.tamanoFlecha {
+    width: 51px;
+    background-color: $colorFlecha;
+    box-shadow: $sombra;
+    border-radius: 14px;
+    border: 0;
+}
+
+    /* Botón de tarjeta derecha */
+.recInclinadoDrch{
+    width: 219.44px;
+    height: 249.96px;
+            
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    transform: $rotacionD;
+    border: 0;
+}
+/* Botón de tarjeta izquierda */
+.recInclinadoIzq {
+    width: 219.44px;
+    height: 249.96px;
+
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    transform: $rotacionI;
+    border: 0;
+}
+
+.recInclinadoIzq:hover {
+    background: $hoverBoton;
+}
+
+/* Servicio de Lovely Pets */
+aside {
+    div {
+        .botonServiciosCel {
+            a {
+                text-decoration: none;
+                color: $colorTerciario;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: $colorSecundario; 
+            }
+        }
+    }
+}
+
+.botonServiciosCel {
+    background-color: transparent !important;
+    border: 0;
+    margin: 15px 0;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: $colorTerciario;
+}
