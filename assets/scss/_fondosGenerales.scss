@@ -1,0 +1,16 @@
+.fondoTextNosotros {
+    background: $colorFondoBotones;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: $sombra;
+}
+
+@media (min-width:1200px) {
+    .fondoFiltros {
+        background-color: $colorPrimario;
+        padding: 20px;
+        box-shadow: $sombra;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+}

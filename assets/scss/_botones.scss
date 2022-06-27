@@ -1,0 +1,244 @@
+header {
+    div {
+        button {
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: #fff; 
+            }
+        }
+    }
+}
+
+
+/* Boton de portada, tal vez principal */
+.botonPrincipal {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px 20px;
+
+    color: #fff;
+
+    background: $colorTerciario;
+    box-shadow: $sombra;
+    border-radius: 54px;
+    border: 0;
+}
+
+.botonPrincipal:hover {
+    background-color: #37b9c6;
+    color: #fff;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.tamanoFlecha {
+    width: 51px;
+    background-color: $colorFlecha;
+    box-shadow: $sombra;
+    border-radius: 14px;
+    border: 0;
+}
+
+    /* Botón de tarjeta derecha */
+.recInclinadoDrch{
+    width: 219.44px;
+    height: 249.96px;
+            
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    transform: $rotacionD;
+    border: 0;
+}
+/* Botón de tarjeta izquierda */
+.recInclinadoIzq {
+    width: 219.44px;
+    height: 249.96px;
+
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    transform: $rotacionI;
+    border: 0;
+}
+
+.recInclinadoIzq:hover {
+    background: $hoverBoton;
+}
+
+/* Servicio de Lovely Pets */
+aside {
+    div {
+        .botonServiciosCel {
+            a {
+                text-decoration: none;
+                color: $colorTerciario;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: $colorSecundario; 
+            }
+        }
+    }
+}
+
+.botonServiciosCel {
+    background-color: transparent !important;
+    border: 0;
+    margin: 15px 0;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: $colorTerciario;
+}
+
+/* Botones de adoptar */
+.buscador {
+    padding: 10px 20px;
+    background-color: $colorFondoBotones;
+    box-shadow: $sombra;
+    border-radius: 54px;
+    margin: 0 25px 20px;
+}
+
+.filtro{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid #a9a9a9;
+    color: #a9a9a9;
+}
+
+/* Boton de servicio */
+.botonGeneralLargo {
+    margin: 50px 0 0;
+    padding: 17px;
+
+    /* Texto */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #FFFFFF;
+
+    /* Boton */
+    border-radius: 54px;
+    border: 0;
+    box-shadow: $sombra;
+    background-color: $colorTerciario;
+}
+
+/* Botones de formulario */
+.StyleDatos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 17px;
+    padding: 15px;
+
+    color: #ADBED9;
+
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    border-radius: 54px;
+    border: 0;
+}
+
+.mensaje {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    height: 410px;
+    padding: 25px;
+
+    color: #ADBED9;
+
+    background: $colorFondoBotones;
+    box-shadow: $sombra;
+    border-radius: 40px;
+    border: 0;
+}
+
+@media (min-width:768px) {
+    /* Servicio de Lovely Pets */
+    aside {
+        div {
+            .botonServicios {
+                a {
+                    text-decoration: none;
+                    color: $colorTerciario;
+                }
+            }
+        }
+    }
+    .botonServicios {
+        margin: 30px 25px 10px;
+        width: 250px;
+        height: 250px;
+    
+        background: $colorFondoBotones;
+        box-shadow: $sombra;
+        border-radius: 40px;
+        border: 0;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+@media (min-width:992px) {
+    .botonPrincipal {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width:1200px) {
+    .buscador2 {
+        background: $colorFondoBotones;
+        box-shadow: $sombra;
+        border-radius: 54px;
+        padding: 10px 0 10px 20px;
+        margin-bottom: 20px;
+    }
+
+        /* Botón de tarjeta derecha */
+    .recInclinadoDrch{
+        width: 219.44px;
+        height: 249.96px;
+        margin: 0 30px 0 30px;
+                
+        background: $colorFondoBotones;
+        box-shadow: $sombra;
+        transform: $rotacionD;
+        border: 0;
+    }
+    /* Botón de tarjeta izquierda */
+    .recInclinadoIzq {
+        width: 219.44px;
+        height: 249.96px;
+        margin: 0 30px 0 30px;
+
+        background: $colorFondoBotones;
+        box-shadow: $sombra;
+        transform: $rotacionI;
+        border: 0;
+    }
+}
+
