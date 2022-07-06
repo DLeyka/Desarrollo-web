@@ -1,0 +1,179 @@
+@import "variables";
+@import "texto";
+
+header {
+    div {
+        button {
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: #fff; 
+            }
+        }
+    }
+}
+
+/* Boton de portada, tal vez principal */
+.botonPrincipal {
+    @extend .textos;
+    @include varBoton(700, 28px, 10px 20px, #fff, $colorTerciario, $sombra, 54px, 0, none);
+}
+
+.botonPrincipal:hover {
+    background-color: $colorPrimario;
+    color: #fff;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.tamanoFlecha {
+    width: 51px;
+    @include varBoton(none, none, none, none, $colorFlecha, $sombra, 14px, 0, none);
+}
+
+/* Botón de tarjeta derecha */
+.recInclinadoDrch{
+    @include varPets (219.44px, 249.96px, $colorFondoBotones, $sombra, $rotacionD, 0);
+}
+
+.recInclinadoDrch:hover {
+    background: $hoverBoton;
+}
+
+/* Botón de tarjeta izquierda */
+.recInclinadoIzq {
+    @include varPets (219.44px, 249.96px, $colorFondoBotones, $sombra, $rotacionI, 0);
+}
+
+.recInclinadoIzq:hover {
+    background: $hoverBoton;
+}
+
+/* Servicio de Lovely Pets */
+aside {
+    div {
+        .botonServiciosCel {
+            a {
+                text-decoration: none;
+                color: $colorTerciario;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: $colorSecundario; 
+            }
+        }
+    }
+}
+.botonServiciosCel {
+    @extend .textos;
+    @include varBotonServicios (600, 25px, 30px, center, $colorTerciario, transparent !important, 0, 15px 0);
+}
+
+/* Botones de adoptar */
+.buscador {
+    @include varBoton(none, none, 10px 20px, none, $colorFondoBotones, $sombra, 54px, 0, 0 25px 20px);
+}
+
+.filtro {
+    @extend .textos;
+    @include varBoton(700, 22px, 10px, $colorFiltro, none, none, none, 1px solid $colorFiltro, 0);
+}
+
+/* Boton de servicio */
+.botonGeneralLargo {
+    @extend .textos;
+    @include varBoton(700, 25px, 17px, #fff, $colorTerciario, $sombra, 54px, 0, 50px 0 0);
+}
+
+/* Botones de formulario */
+.StyleDatos {
+    @extend .textos;
+    @include varBoton(none, 17px, 15px, $colorBotonFormulario, $colorFondoBotones, $sombra, 54px, 0, 0);
+}
+
+.mensaje {
+    @extend .textos;
+    @include varBoton(700, 17px, 25px, $colorBotonFormulario, $colorFondoBotones, $sombra, 40px, 0, 0);
+    height: 410px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    aside {
+        div {
+            .botonServicios {
+                a {
+                    text-decoration: none;
+                    color: $colorTerciario;
+                }
+            }
+        }
+    }
+    .botonServicios {
+        width: 250px;
+        height: 250px;
+        @extend .textos;
+        @include varBoton(none, none, none, none, $colorFondoBotones, $sombra, 40px, 0, 30px 25px 10px);
+        @include varTextos(600, 25px, 30px, none, none, center)
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .botonPrincipal {
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px) {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .botonPrincipal {
+        margin-left: 100px;
+    }
+
+    .buscador2 {
+        @include varBoton(none, none, 10px 0 10px 20px, none, $colorFondoBotones, $sombra, 54px, 0, 0 0 20px);
+    }
+
+    /* Botón de tarjeta derecha */
+    .recInclinadoDrch{
+        @include varPets (219.44px, 249.96px, $colorFondoBotones, $sombra, $rotacionD, 0);
+        margin: 0 30px 0 30px;
+    }
+    /* Botón de tarjeta izquierda */
+    .recInclinadoIzq {
+        @include varPets (219.44px, 249.96px, $colorFondoBotones, $sombra, $rotacionI, 0);
+        margin: 0 30px 0 30px;
+    }
+}

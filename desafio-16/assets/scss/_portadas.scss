@@ -1,0 +1,139 @@
+/* Portada de celular */
+.portadaInicioCel {
+    background-image: $portadaG,url(../img/homecel.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+/* Portada de celular Adoptar */
+.coverAdopta {
+    background-image: $portadaG,url(../img/adoptar.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+/* Portada de celular servicios */
+.coverServicio {
+    background-image: $portadaG,url(../img/servicios.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+/* Portada de celular nosotros */
+.coverNosotros {
+    background-image: $portadaG,url(../img/nosotros.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+/* Portada de celular contacto */
+.coverContacto {
+    background-image: $portadaG,url(../img/contacto.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+
+
+
+
+@media (min-width:576px){
+    .portadaInicioCel {
+        background-image: $portadaG,url(../img/home576.jpg);
+        height: 450px;
+        background-size: cover;
+    }
+}
+
+@media (min-width:768px){
+    .coverAdopta {
+        background-image: $portadaG,url(../img/adoptar.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular servicios */
+    .coverServicio {
+        background-image: $portadaG,url(../img/servicios.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular nosotros */
+    .coverNosotros {
+        background-image: $portadaG,url(../img/nosotros.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular contacto */
+    .coverContacto {
+        background-image: $portadaG,url(../img/contacto.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+}
+
+@media (min-width:992px) {
+    .portadaInicioCel {
+        background-image: $portadaG,url(../img/portada.png);
+        height: 450px;
+        background-size: cover;
+    }
+
+    .coverAdopta {
+        background-image: $portadaG,url(../img/adoptar.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular servicios */
+    .coverServicio {
+        background-image: $portadaG,url(../img/servicios.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular nosotros */
+    .coverNosotros {
+        background-image: $portadaG,url(../img/nosotros.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+
+    /* Portada de celular contacto */
+    .coverContacto {
+        background-image: $portadaG,url(../img/contacto.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+}
+
+@media (min-width:1200px) {
+    .coverAdopta {
+        background-image: $portadaG,url(../img/adoptar.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+
+    /* Portada de celular servicios */
+    .coverServicio {
+        background-image: $portadaG,url(../img/servicios.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+
+    /* Portada de celular nosotros */
+    .coverNosotros {
+        background-image: $portadaG,url(../img/nosotros.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+
+    /* Portada de celular contacto */
+    .coverContacto {
+        background-image: $portadaG,url(../img/contacto.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+}

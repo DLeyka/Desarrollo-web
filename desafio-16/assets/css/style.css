@@ -1,0 +1,804 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Textos */
+/* Colores */
+/* Gradientes */
+/* Sombras */
+/* Rotaciones (inclinaciones) */
+/* Boton de portada, tal vez principal */
+/* Botón de tarjeta derecha */
+/* Servicio de Lovely Pets */
+/* Textos */
+/* Colores */
+/* Gradientes */
+/* Sombras */
+/* Rotaciones (inclinaciones) */
+/* Boton de portada, tal vez principal */
+/* Botón de tarjeta derecha */
+/* Servicio de Lovely Pets */
+/* Textos de portada de celular */
+.textos, .mensaje, .StyleDatos, .botonGeneralLargo, .filtro, .botonServiciosCel, .botonPrincipal, .textoPortada2, .textoPortada1 {
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+.textoPortada1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 210px;
+}
+
+.textoPortada2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 65px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -30px;
+}
+
+/* Bloque 1 Adopta */
+.tituloPrincipal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+.textoPrincipal {
+  padding-top: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #2B3443;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.textHeroes {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #34B785;
+}
+
+/* Imagenes derecha */
+.textIncliDrch {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 200px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Imagenes izquierda */
+.textIncliIzq {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 195px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Conoce a Lovely Pets */
+.tituloPrincipalLove {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #E74F5C;
+}
+
+/* Footer */
+.politicas {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Perfil */
+.nombreDeHeroe {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: #2B3443;
+}
+
+.listaDescripcion {
+  list-style: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  color: #2B3443;
+}
+
+@media (min-width: 768px) {
+  .tituloPrincipal {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #2B3443;
+  }
+
+  .textoPrincipal {
+    padding-top: 10px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2B3443;
+  }
+
+  /* Bloque 2 Nuestros Héroes */
+  .textHeroes {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #34B785;
+  }
+
+  /* Conoce a Lovely Pets */
+  .tituloPrincipalLove {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #2B3443;
+  }
+
+  /* Servicio de Lovely Pets */
+  .tituloServiciosCel {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #E74F5C;
+  }
+}
+@media (min-width: 992px) {
+  .textoPortada1 {
+    margin-top: 210px;
+    margin-left: 100px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+  }
+
+  .textoPortada2 {
+    margin-top: -30px;
+    margin-left: 100px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+@media (min-width: 1200px) {
+  .textoBuscador {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B3443;
+  }
+
+  .contenedorFiltros {
+    margin: 10px 0;
+  }
+
+  .listaNombres {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  .titulosDeFiltros {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+}
+/* Portada de celular */
+.portadaInicioCel {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/homecel.jpg);
+  height: 600px;
+  background-size: cover;
+}
+
+/* Portada de celular Adoptar */
+.coverAdopta {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+/* Portada de celular servicios */
+.coverServicio {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+/* Portada de celular nosotros */
+.coverNosotros {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+/* Portada de celular contacto */
+.coverContacto {
+  background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  .portadaInicioCel {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/home576.jpg);
+    height: 450px;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  .coverAdopta {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular servicios */
+  .coverServicio {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular nosotros */
+  .coverNosotros {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular contacto */
+  .coverContacto {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+}
+@media (min-width: 992px) {
+  .portadaInicioCel {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/portada.png);
+    height: 450px;
+    background-size: cover;
+  }
+
+  .coverAdopta {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular servicios */
+  .coverServicio {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular nosotros */
+  .coverNosotros {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  /* Portada de celular contacto */
+  .coverContacto {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+}
+@media (min-width: 1200px) {
+  .coverAdopta {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
+    height: 500px;
+    background-size: cover;
+  }
+
+  /* Portada de celular servicios */
+  .coverServicio {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
+    height: 500px;
+    background-size: cover;
+  }
+
+  /* Portada de celular nosotros */
+  .coverNosotros {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
+    height: 500px;
+    background-size: cover;
+  }
+
+  /* Portada de celular contacto */
+  .coverContacto {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
+    height: 500px;
+    background-size: cover;
+  }
+}
+/* Textos */
+/* Colores */
+/* Gradientes */
+/* Sombras */
+/* Rotaciones (inclinaciones) */
+/* Boton de portada, tal vez principal */
+/* Botón de tarjeta derecha */
+/* Servicio de Lovely Pets */
+/* Textos */
+/* Colores */
+/* Gradientes */
+/* Sombras */
+/* Rotaciones (inclinaciones) */
+/* Boton de portada, tal vez principal */
+/* Botón de tarjeta derecha */
+/* Servicio de Lovely Pets */
+/* Textos de portada de celular */
+.textos, .mensaje, .StyleDatos, .botonGeneralLargo, .filtro, .botonServiciosCel, .botonPrincipal, .textoPortada1, .textoPortada2 {
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+.textoPortada1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 210px;
+}
+
+.textoPortada2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 65px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -30px;
+}
+
+/* Bloque 1 Adopta */
+.tituloPrincipal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+.textoPrincipal {
+  padding-top: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #2B3443;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.textHeroes {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #34B785;
+}
+
+/* Imagenes derecha */
+.textIncliDrch {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 200px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Imagenes izquierda */
+.textIncliIzq {
+  position: absolute;
+  width: 84px;
+  left: 20px;
+  top: 195px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #34B785;
+  transform: rotate(0.1deg);
+}
+
+/* Conoce a Lovely Pets */
+.tituloPrincipalLove {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #2B3443;
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #E74F5C;
+}
+
+/* Footer */
+.politicas {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Perfil */
+.nombreDeHeroe {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: #2B3443;
+}
+
+.listaDescripcion {
+  list-style: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  color: #2B3443;
+}
+
+@media (min-width: 768px) {
+  .tituloPrincipal {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #2B3443;
+  }
+
+  .textoPrincipal {
+    padding-top: 10px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2B3443;
+  }
+
+  /* Bloque 2 Nuestros Héroes */
+  .textHeroes {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #34B785;
+  }
+
+  /* Conoce a Lovely Pets */
+  .tituloPrincipalLove {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #2B3443;
+  }
+
+  /* Servicio de Lovely Pets */
+  .tituloServiciosCel {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #E74F5C;
+  }
+}
+@media (min-width: 992px) {
+  .textoPortada1 {
+    margin-top: 210px;
+    margin-left: 100px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+  }
+
+  .textoPortada2 {
+    margin-top: -30px;
+    margin-left: 100px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+@media (min-width: 1200px) {
+  .textoBuscador {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B3443;
+  }
+
+  .contenedorFiltros {
+    margin: 10px 0;
+  }
+
+  .listaNombres {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  .titulosDeFiltros {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Boton de portada, tal vez principal */
+.botonPrincipal {
+  font-weight: 700;
+  font-size: 28px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #E74F5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+  margin: none;
+}
+
+.botonPrincipal:hover {
+  background-color: #37b9c6;
+  color: #fff;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.tamanoFlecha {
+  width: 51px;
+  font-weight: none;
+  font-size: none;
+  padding: none;
+  color: none;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  border: 0;
+  margin: none;
+}
+
+/* Botón de tarjeta derecha */
+.recInclinadoDrch {
+  width: 219.44px;
+  height: 249.96px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(6.07deg);
+  border: 0;
+}
+
+.recInclinadoDrch:hover {
+  background: #D9D9D9;
+}
+
+/* Botón de tarjeta izquierda */
+.recInclinadoIzq {
+  width: 219.44px;
+  height: 249.96px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-9.34deg);
+  border: 0;
+}
+
+.recInclinadoIzq:hover {
+  background: #D9D9D9;
+}
+
+/* Servicio de Lovely Pets */
+.botonServiciosCel {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #E74F5C;
+  background-color: transparent !important;
+  border: 0;
+  margin: 15px 0;
+}
+
+/* Botones de adoptar */
+.buscador {
+  font-weight: none;
+  font-size: none;
+  padding: 10px 20px;
+  color: none;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+  margin: 0 25px 20px;
+}
+
+.filtro {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 10px;
+  color: #a9a9a9;
+  background: none;
+  box-shadow: none;
+  border-radius: none;
+  border: 1px solid #a9a9a9;
+  margin: 0;
+}
+
+/* Boton de servicio */
+.botonGeneralLargo {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 17px;
+  color: #fff;
+  background: #E74F5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+  margin: 50px 0 0;
+}
+
+/* Botones de formulario */
+.StyleDatos {
+  font-weight: none;
+  font-size: 17px;
+  padding: 15px;
+  color: #ADBED9;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+  margin: 0;
+}
+
+.mensaje {
+  font-weight: 700;
+  font-size: 17px;
+  padding: 25px;
+  color: #ADBED9;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: 0;
+  margin: 0;
+  height: 410px;
+}
+
+@media (min-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #E74F5C;
+  }
+
+  .botonServicios {
+    margin: 30px 25px 10px;
+    width: 250px;
+    height: 250px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border: 0;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

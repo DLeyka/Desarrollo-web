@@ -1,0 +1,166 @@
+@import "variables";
+
+/* Textos de portada de celular */
+.textos {
+    font-family: map-get($textos , fuente);
+    font-style: map-get($textos , style);
+}
+
+.textoPortada1 {
+    @extend .textos;
+    @include varTextos (700, 25px, 65px, #fff, $sombra,none);
+    margin-top: 210px;
+   
+}
+
+.textoPortada2 {
+    @extend .textos;
+    @include varTextos (700, 45px, 65px, #fff, $sombra,none);
+    margin-top: -30px;
+}
+
+/* Bloque 1 Adopta */ 
+.tituloPrincipal {
+    @extend .textos;
+    @include varTextos (900, 30px, none, $colorSecundario, none, center);
+}
+
+.textoPrincipal {
+    @extend .textos;
+    @include varTextos (700, 17px, none, $colorSecundario, none, none);
+    padding-top: 10px;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.textHeroes {
+    @extend .textos;
+    @include varTextos (900, 30px, none, $colorHeroes, none, none);
+}
+
+/* Imagenes derecha */
+.textIncliDrch {
+    @extend .textos;
+    @include varPetsTexto (absolute, 84px, 20px, 200px, 700, 30px, 55px, $colorHeroes, $rotacionTextD);
+}
+
+/* Imagenes izquierda */
+.textIncliIzq {
+    @extend .textos;
+    @include varPetsTexto (absolute, 84px, 20px, 195px, 700, 30px, 55px, $colorHeroes, $rotacionTextI);
+}
+
+/* Conoce a Lovely Pets */
+.tituloPrincipalLove {
+    @extend .textos;
+    @include varTextos (900, 30px, none, $colorSecundario, none, center);
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+    @extend .textos;
+    @include varTextos (900, 30px, none, $colorTerciario, none, center);
+}
+
+/* Footer */
+.politicas {
+    @extend .textos;
+    @include varTextos (500, 20px, 33px, #fff, none, center);
+}
+
+/* Perfil */
+.nombreDeHeroe {
+    @extend .textos;
+    @include varTextos (900, 45px, none, $colorSecundario, none, none);
+}
+
+.listaDescripcion {
+    @extend .textos;
+    @include varTextos (400, 18px, none, $colorSecundario, none, left);
+    list-style: none;
+}
+
+
+
+
+
+
+@media (min-width:768px) { 
+    .tituloPrincipal {
+        @extend .textos;
+        @include varTextos (900, 40px, none, $colorSecundario, none, center);
+    }
+    
+    .textoPrincipal {
+        @extend .textos;
+        @include varTextos (700, 24px, none, $colorSecundario, none, none);
+        padding-top: 10px;
+    }
+    
+    
+    /* Bloque 2 Nuestros Héroes */
+    .textHeroes {
+        @extend .textos;
+        @include varTextos (900, 40px, none, $colorHeroes, none, none);
+    }
+    
+
+    /* Conoce a Lovely Pets */
+    .tituloPrincipalLove {
+        @extend .textos;
+        @include varTextos (900, 40px, none, $colorSecundario, none, center);
+    }
+    
+
+    /* Servicio de Lovely Pets */
+    .tituloServiciosCel {
+        @extend .textos;
+        @include varTextos (900, 40px, none, $colorTerciario, none, none);
+    }
+}
+
+
+
+
+
+
+@media (min-width:992px) {
+    .textoPortada1 {
+        @extend .textos;
+        @include varTextos (700, 30px, 65px, #fff, $sombra, none);
+        margin-top: 210px;
+        margin-left: 100px;
+    }
+    
+    .textoPortada2 {
+        @extend .textos;
+        @include varTextos (700, 64px, 65px, #fff, $sombra, none);
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:1200px) {
+    .textoBuscador {
+        @extend .textos;
+        @include varTextos (700, 25px, none, $colorSecundario, none, none);
+    }
+
+    .contenedorFiltros {
+        margin: 10px 0;
+    }
+
+    .listaNombres {
+        @extend .textos;
+        @include varTextos (700, 18px, none, #fff, none, none);
+    }
+
+    .titulosDeFiltros {
+        @extend .textos;
+        @include varTextos (700, 24px, none, #fff, none, none);
+    }
+}
