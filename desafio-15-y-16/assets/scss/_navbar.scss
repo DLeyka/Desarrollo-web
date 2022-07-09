@@ -1,0 +1,33 @@
+@import "variables";
+
+@media (min-width:1200px) {
+    nav {
+        div {
+            .menu {
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    nav {
+        div {
+            .menu {
+                li {
+                    @include varTextos ('Nunito', normal, 400, 24px, none, none, none, none);
+                    list-style: none;
+                    margin-top: 15px;
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+}

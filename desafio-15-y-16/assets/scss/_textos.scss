@@ -1,0 +1,155 @@
+@import "variables";
+
+.fondoTextNosotros {
+    background: $colorFondoBotones;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: $sombra;
+}
+
+/* Textos de portada de celular */
+.textoPortada1 {
+    @include varTextos ('Nunito', normal, 700, 25px, 65px, #fff, $sombra,none);
+    margin-top: 210px;
+   
+}
+
+.textoPortada2 {
+    @include varTextos ('Nunito', normal, 700, 45px, 65px, #fff, $sombra,none);
+    margin-top: -30px;
+}
+
+/* Bloque 1 Adopta */ 
+.tituloPrincipal {
+    @include varTextos ('Nunito', normal, 900, 30px, none, $colorSecundario, none, center);
+}
+
+.textoPrincipal {
+    @include varTextos ('Nunito', normal, 700, 17px, none, $colorSecundario, none, none);
+    padding-top: 10px;
+}
+
+/* Bloque 2 Nuestros Héroes */
+.textHeroes {
+    @include varTextos ('Nunito', normal, 900, 30px, none, $colorHeroes, none, none);
+}
+
+/* Imagenes derecha */
+.textIncliDrch {
+    @include varPetsTexto (absolute, 84px, 20px, 200px, 'Nunito', normal,  700, 30px, 55px, $colorHeroes, $rotacionTextD);
+}
+
+/* Imagenes izquierda */
+.textIncliIzq {
+    @include varPetsTexto (absolute, 84px, 20px, 195px, 'Nunito', normal, 700, 30px, 55px, $colorHeroes, $rotacionTextI);
+}
+
+/* Conoce a Lovely Pets */
+.tituloPrincipalLove {
+    @include varTextos ('Nunito', normal, 900, 30px, none, $colorSecundario, none, center);
+}
+
+/* Servicio de Lovely Pets */
+.tituloServiciosCel {
+    @include varTextos ('Nunito', normal, 900, 30px, none, $colorTerciario, none, center);
+}
+
+/* Footer */
+.politicas {
+    @include varTextos ('Nunito', normal, 500, 20px, 33px, #fff, none, center);
+}
+
+/* Perfil */
+.nombreDeHeroe {
+    @include varTextos ('Nunito', normal, 900, 45px, none, $colorSecundario, none, none);
+}
+
+.listaDescripcion {
+    @include varTextos ('Nunito', normal, 400, 18px, none, $colorSecundario, none, left);
+    list-style: none;
+}
+
+
+
+
+
+
+@media (min-width:768px) { 
+    .tituloPrincipal {
+        @include varTextos ('Nunito', normal, 900, 40px, none, $colorSecundario, none, center);
+    }
+    
+    .textoPrincipal {
+        @include varTextos ('Nunito', normal, 700, 24px, none, $colorSecundario, none, none);
+        padding-top: 10px;
+    }
+    
+    
+    /* Bloque 2 Nuestros Héroes */
+    .textHeroes {
+        @include varTextos ('Nunito', normal, 900, 40px, none, $colorHeroes, none, none);
+    }
+    
+
+    /* Conoce a Lovely Pets */
+    .tituloPrincipalLove {
+        @include varTextos ('Nunito', normal, 900, 40px, none, $colorSecundario, none, center);
+    }
+    
+
+    /* Servicio de Lovely Pets */
+    .tituloServiciosCel {
+        @include varTextos ('Nunito', normal, 900, 40px, none, $colorTerciario, none, none);
+    }
+}
+
+
+
+
+
+
+@media (min-width:992px) {
+
+    .textoPortada1 {
+        @include varTextos ('Nunito', normal, 700, 30px, 65px, #fff, $sombra, none);
+        margin-top: 210px;
+        margin-left: 100px;
+    }
+    
+    .textoPortada2 {
+        @include varTextos ('Nunito', normal, 700, 64px, 65px, #fff, $sombra, none);
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:1200px) {
+    .fondoFiltros {
+        background-color: $colorPrimario;
+        padding: 20px;
+        box-shadow: $sombra;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .textoBuscador {
+        @include varTextos ('Nunito', normal, 700, 25px, none, $colorSecundario, none, none);
+    }
+
+    .contenedorFiltros {
+        margin: 10px 0;
+    }
+
+    .listaNombres {
+        @include varTextos ('Nunito', normal, 700, 18px, none, #fff, none, none);
+    }
+
+    .titulosDeFiltros {
+        @include varTextos ('Nunito', normal, 700, 24px, none, #fff, none, none);
+    }
+}

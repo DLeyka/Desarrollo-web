@@ -1,0 +1,83 @@
+@import "variables";
+
+.accordionMenu{
+    width: 90%;
+    margin: 0 auto;
+}
+.accordionMenu input[type=radio]{
+    display: none;
+}
+.accordionMenu label{
+    margin: 15px;
+    display: block;
+    line-height: 47px;
+    padding: 20px;
+    background: $colorFondoBotones;
+    font-size: 18px;
+    color: $colorSecundario;
+    position: relative;
+    cursor: pointer;
+
+    box-shadow: $sombra;
+    border-radius: 13px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.accordionMenu label::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent $colorSecundario;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordionMenu .content{
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.accordionMenu .content .inner{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+
+    font-size: 1.2rem;
+    color: $colorSecundario;
+    line-height: 1.5;
+    background: $colorFondoBotones;
+    padding: 30px 30px;
+
+    border-radius: 40px;
+}
+
+.accordionMenu input[type=radio]:checked + label:after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.accordionMenu input[type=radio]:checked + label + .content{
+    max-height: 2000px;
+    height: auto;
+}
