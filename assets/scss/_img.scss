@@ -1,16 +1,12 @@
+@import "variables";
+
 /* Imagenes derecha */
 .imgPosocionDrch {
-    width: 179.43px;
-    transform: $rotacionImgD;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    @include varPetsImg (179.43px, $rotacionImgD, 15px 0 30px);
 }
 /* Imagenes izquierda */
 .imgPosicionIzq{
-    width: 179.43px;
-    transform: $rotacionImgI;
-    padding-top: 15px;
-    padding-bottom: 40px;
+    @include varPetsImg (179.43px, $rotacionImgI, 15px 0 40px);
 }
 
 /* Perfil */

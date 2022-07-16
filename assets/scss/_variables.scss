@@ -1,0 +1,106 @@
+/* Textos */
+@mixin varTextos ($tipo,$estilo,$peso,$size,$interLinea,$color,$sombra,$aling) {
+    font-family: $tipo;
+    font-style: $estilo;
+    font-weight: $peso;
+    font-size: $size;
+    line-height: $interLinea;
+    color: $color;
+    text-shadow: $sombra;
+    text-align: $aling;
+}
+
+/* Colores */
+$colorPrimario: #37b9c6;
+$colorSecundario: #2B3443;
+$colorTerciario: #E74F5C;
+$colorHeroes: #34B785;
+$colorFondoBotones: #F5F5F5;
+$hoverBoton: #D9D9D9;
+$colorFlecha: #F9F9F9;
+$colorFiltro: #a9a9a9;
+$colorBotonFormulario: #ADBED9;
+
+/* Gradientes */
+$portadaG: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5));
+
+/* Sombras */
+$sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Rotaciones (inclinaciones) */
+$rotacionD: rotate(6.07deg);
+$rotacionImgD: rotate(0.05deg);
+$rotacionTextD: rotate(0.10deg);
+$rotacionI: rotate(-9.34deg);
+$rotacionImgI: rotate(0.10deg);
+$rotacionTextI: rotate(0.10deg);
+
+/* Boton de portada, tal vez principal */
+@mixin varBoton ($tipo, $estilo, $peso, $size, $padding, $textcolor, $fondo, $sombra, $bordeCircular, $borde, $margen) {
+    font-family: $tipo;
+    font-style: $estilo;
+    font-weight: $peso;
+    font-size: $size;
+    padding: $padding;
+
+    color: $textcolor;
+
+    background: $fondo;
+    box-shadow: $sombra;
+    border-radius: $bordeCircular;
+    border: $borde;
+
+    margin: $margen;
+}
+
+/* Servicio de Lovely Pets */
+@mixin varBotonServicios ($tipo, $estilo, $peso, $size, $interlineado, $alineado, $colorText, $fondo, $borde, $margen) {
+    font-family: $tipo;
+    font-style: $estilo;
+    font-weight: $peso;
+    font-size: $size;
+    line-height: $interlineado;
+    text-align: $alineado;
+
+    color: $colorText;
+
+    background-color: $fondo;
+    border: $borde;
+    margin: $margen;
+}
+
+ /* Botón de tarjeta derecha */
+ @mixin varPets ($ancho, $alto, $fondo, $sombra, $rotacion, $borde) {
+    width: $ancho;
+    height: $alto;
+            
+    background: $fondo;
+    box-shadow: $sombra;
+    transform: $rotacion;
+    border: $borde;
+}
+
+/* Imagenes derecha */
+@mixin varPetsTexto ($posicion, $width, $izq, $arriba, $tipo, $estilo, $peso, $size, $interlineado, $color, $rotacion) {
+    position: $posicion;
+    width: $width;
+    left: $izq;
+    top: $arriba;
+
+    font-family: $tipo;
+    font-style: $estilo;
+    font-weight: $peso;
+    font-size: $size;
+    line-height: $interlineado;
+        
+    color: $color;
+        
+    transform: $rotacion;
+}
+
+/* Imagenes derecha */
+@mixin varPetsImg ($width, $rotacion, $padding) {
+    width: $width;
+    transform: $rotacion;
+    padding: $padding;
+}

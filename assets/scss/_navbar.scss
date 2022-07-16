@@ -1,3 +1,5 @@
+@import "variables";
+
 @media (min-width:1200px) {
     nav {
         div {
@@ -20,13 +22,10 @@
         div {
             .menu {
                 li {
+                    @include varTextos ('Nunito', normal, 400, 24px, none, none, none, none);
                     list-style: none;
                     margin-top: 15px;
                     margin-left: 25px;
-                    font-family: 'Nunito';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 24px;
                 }
             }
         }

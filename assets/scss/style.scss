@@ -3,11 +3,10 @@
     padding: 0;
 }
 
-@import "coloresSomRota.scss";
-@import "portadas.scss";
-@import "textos.scss";
-@import "botones.scss";
-@import "img.scss";
-@import "servicios.scss";
-@import "fondosGenerales.scss";
-@import "navbar.scss";
+@import "variables";
+@import "navbar";
+@import "portadas";
+@import "botones";
+@import "servicios";
+@import "img";
+@import "textos";
