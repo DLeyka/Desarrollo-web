@@ -19,6 +19,10 @@
     margin-top: -30px;
 }
 
+.textoDePortadas {
+    @include varTextos ('Nunito', normal, 700, 45px, 65px, #fff, $sombra,none);
+}
+
 /* Bloque 1 Adopta */ 
 .tituloPrincipal {
     @include varTextos ('Nunito', normal, 900, 30px, none, $colorSecundario, none, center);
@@ -121,6 +125,10 @@
         margin-top: -30px;
         margin-left: 100px;
     }
+
+    .textoDePortadas {
+        @include varTextos ('Nunito', normal, 700, 64px, 65px, #fff, $sombra,none);
+    }
 }
 
 
@@ -135,10 +143,6 @@
         box-shadow: $sombra;
         border-radius: 20px;
         margin-bottom: 30px;
-    }
-
-    .textoBuscador {
-        @include varTextos ('Nunito', normal, 700, 25px, none, $colorSecundario, none, none);
     }
 
     .contenedorFiltros {

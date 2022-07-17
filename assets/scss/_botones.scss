@@ -16,6 +16,19 @@ header {
     }
 }
 
+/* Perfil */
+.perfil {
+    @include varBoton('Nunito', normal, 700, 28px, 1px 70px, #fff, $colorTerciario, $sombra, 54px, 0, none);
+}
+
+.perfil:hover {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    background-color: $colorPrimario;
+    color: #fff;
+}
 /* Boton de portada, tal vez principal */
 .botonPrincipal {
     @include varBoton('Nunito', normal, 700, 28px, 10px 20px, #fff, $colorTerciario, $sombra, 54px, 0, none);
@@ -29,6 +42,7 @@ header {
 /* Bloque 2 Nuestros Héroes */
 .tamanoFlecha {
     width: 51px;
+    height: 51px;
     @include varBoton(none, none, none, none, none, none, $colorFlecha, $sombra, 14px, 0, none);
 }
 
@@ -72,7 +86,8 @@ aside {
 
 /* Botones de adoptar */
 .buscador {
-    @include varBoton(none, none, none, none, 10px 20px, none, $colorFondoBotones, $sombra, 54px, 0, 0 25px 20px);
+    width: 100%;
+    @include varBoton(none, none, none, none, none, none, $colorFondoBotones, $sombra, 54px, 0, 0 25px 20px);
 }
 
 .filtro {
@@ -89,19 +104,41 @@ aside {
     @include varBoton(none, none, none, 17px, 15px, $colorBotonFormulario, $colorFondoBotones, $sombra, 54px, 0, 0);
 }
 
+.textoplaceholder {
+    @include varBoton('Nunito', normal, 700, 17px, 25px, $colorBotonFormulario, $colorFondoBotones, $sombra, 40px, 0, 0);
+}
+
 .mensaje {
     @include varBoton('Nunito', normal, 700, 17px, 25px, $colorBotonFormulario, $colorFondoBotones, $sombra, 40px, 0, 0);
     height: 410px;
 }
 
 
+.navbarCelular {
+    @include varBoton('Nunito', normal, 700, 24px, none, #fff, none, none, none, 0, 0);
+}
+
+.navbarCelular:hover {
+    @include varBoton('Nunito', normal, 700, 24px, none, #fff, none, none, none, 0, 0);
+}
 
 
 
 
+
+@media (max-width:768px) {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
 
 
 @media (min-width:768px) {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
     aside {
         div {
             .botonServicios {
@@ -117,6 +154,14 @@ aside {
         height: 250px;
         @include varBoton(none, none, none, none, none, none, $colorFondoBotones, $sombra, 40px, 0, 30px 25px 10px);
         @include varTextos('Nunito', normal, 600, 25px, 30px, none, none, center)
+    }
+    .perfil {
+        @include varBoton('Nunito', normal, 700, 28px, 1px 70px, #fff, $colorTerciario, $sombra, 54px, 0, none);
+    }
+    
+    .perfil:hover {
+        background-color: $colorPrimario;
+        color: #fff;
     }
 }
 
@@ -135,6 +180,7 @@ aside {
     .botonPrincipal {
         margin-left: 100px;
     }
+    
 }
 
 

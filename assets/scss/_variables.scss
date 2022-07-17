@@ -1,3 +1,11 @@
+/* Navbar */
+@mixin varBotonNavbar ($fondo, $borde, $colorBorde, $padding) {
+    background-color: $fondo;
+    border: $borde;
+    border-color: $colorBorde;
+    padding: $padding;
+}
+
 /* Textos */
 @mixin varTextos ($tipo,$estilo,$peso,$size,$interLinea,$color,$sombra,$aling) {
     font-family: $tipo;
@@ -20,6 +28,15 @@ $hoverBoton: #D9D9D9;
 $colorFlecha: #F9F9F9;
 $colorFiltro: #a9a9a9;
 $colorBotonFormulario: #ADBED9;
+
+.colorFlechas {
+    color: #34B785;
+}
+
+.colorNavbar {
+    color: #fff;
+}
+
 
 /* Gradientes */
 $portadaG: linear-gradient(rgba(55,185,198,0.3),rgba(55,185,198,0.5));
@@ -104,3 +121,17 @@ $rotacionTextI: rotate(0.10deg);
     transform: $rotacion;
     padding: $padding;
 }
+
+/* Carrusel del inicio */
+.elPadding{
+    padding: 10px;
+}
+
+
+
+@media (min-width:1200px) {
+    .elPadding{
+        padding: 0 100px 50px 100px;
+    } 
+}
+

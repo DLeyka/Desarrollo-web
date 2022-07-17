@@ -11,8 +11,8 @@
 
 /* Perfil */
 .galeriaHeroe {
-    width: 297px;
-    height: 369px;
+    width: 501.68px;
+    height: 623.3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,8 +24,8 @@
 
 .galeriaHeroe {
     img {
-        width: 254px;
-        height: 254px;
+        width: 439.4681px;
+        height: 439.4681px;
     }
 }
 
@@ -50,4 +50,26 @@
 /* Margen de Corazón en botón de servicios */
 .margenServicio {
     margin: 0px 73px 30px;
+}
+
+
+@media (max-width:768px) {
+    .galeriaHeroe {
+        width: 297px;
+        height: 369px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px;
+    
+        background: $colorFondoBotones;
+        box-shadow: $sombra;
+    }
+    
+    .galeriaHeroe {
+        img {
+            width: 254px;
+            height: 254px;
+        }
+    }
 }

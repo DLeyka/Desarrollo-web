@@ -17,29 +17,33 @@
 <body class="container-fluid">
     <nav class="navbar row banner bg-fondo_guinda d-xl-none" style="background-color: #37b9c6;">
         <div class="container">
-          <a class="navbar-brand" href="#">Lovley Pets</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./adoptar.html">Adopción</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbarCelular" href="#">Lovley Pets</a>
+            <button class="navbarCelular" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list colorNavbar" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link colorNavbar" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./adoptar.html">Adopción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link colorNavbar" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link colorNavbar" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link colorNavbar" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -47,29 +51,38 @@
         <div class="d-flex justify-content-between">
             <img src="../assets/img/logo-blanco.svg" class="col-xl-2" alt="">
             <ul class="d-flex menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./adoptar.html">Adopción</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./adoptar.html">Adopción</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <header class="row coverAdopta justify-content-center align-items-center" data-aos="fade-up">
+    <header class="row coverAdopta justify-content-center align-items-center mb-4 text-center" data-aos="fade-up">
+        <h1 class="textoDePortadas d-none d-md-block d-lg-block d-xl-block d-xxl-block">Nuestros héroes</h1>
     </header>
 
     <main class="row justify-content-center" data-aos="fade-up">
-        <h2 class="text-center tituloPrincipal m-5 col-10">Nuestros héroes</h2>
+        <h2 class="text-center tituloPrincipal d-block d-md-none d-lg-none d-xl-none d-xxl-none m-5 col-10">Nuestros héroes</h2>
     </main>
 
     <main class="row justify-content-center align-items-center d-none d-xl-block">
         <div class="row justify-content-around"> 
             <div class="fondoFiltros col-xl-3">
                 <!-- Filtros para escritorio -->
-                <div class="buscador2">
-                    <h3 class="textoBuscador">Buscar</h3>
-                </div>
+                <input type="text" name="buscar" placeholder="Buscar" class="StyleDatos buscador textoplaceholder">
                 <div class="contenedorFiltros">
                     <div>
                         <h3 class="titulosDeFiltros">Filtrar por especie</h3>
@@ -134,7 +147,7 @@
             </div>
             <div class="col-xl-6">
                 <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
-                    <a href="./perfil.html">
+                    <a href="./gordon.html">
                         <img src="../assets/img/gordon_2.jpg" class="imgPosicionIzq">
                         <h3 class="textIncliIzq">Gordon</h3>
                     </a>
@@ -146,15 +159,45 @@
                     </a>
                 </button>
                 <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
-                    <a href="./perfil.html">
+                    <a href="./timoteo.html">
                         <img src="../assets/img/timoteo_4.jpeg" class="imgPosicionIzq">
                         <h3 class="textIncliIzq">Timoteo</h3>
                     </a>
                 </button>
+                <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+                    <a href="./lennon.html">
+                        <img src="../assets/img/lennon_4.jpg" class="imgPosicionIzq">
+                        <h3 class="textIncliIzq">Lennon</h3>
+                    </a>
+                </button>
                 <button class="recInclinadoDrch mt-3 mb-5 col-10 col-lg-4">
-                    <a href="./perfil.html">
-                        <img src="../assets/img/marte_1.jpg" class="imgPosocionDrch">
-                        <h3 class="textIncliDrch">Marte</h3>
+                    <a href="./rocco.html">
+                        <img src="../assets/img/rocco_1.jpg" class="imgPosocionDrch">
+                        <h3 class="textIncliDrch">Rocco</h3>
+                    </a>
+                </button>
+                <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+                    <a href="./pekas.html">
+                        <img src="../assets/img/pekas_2.jpg" class="imgPosicionIzq">
+                        <h3 class="textIncliIzq">Pekas</h3>
+                    </a>
+                </button>
+                <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+                    <a href="./nacho.html">
+                        <img src="../assets/img/nacho_1.jpg" class="imgPosicionIzq">
+                        <h3 class="textIncliIzq">Nacho</h3>
+                    </a>
+                </button>
+                <button class="recInclinadoDrch mt-3 mb-5 col-10 col-lg-4">
+                    <a href="./palmera.html">
+                        <img src="../assets/img/palmera_5.jpg" class="imgPosocionDrch">
+                        <h3 class="textIncliDrch">Palmera</h3>
+                    </a>
+                </button>
+                <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+                    <a href="./pina.html">
+                        <img src="../assets/img/pinon_1.jpg" class="imgPosicionIzq">
+                        <h3 class="textIncliIzq">Piña</h3>
                     </a>
                 </button>
             </div>
@@ -162,9 +205,7 @@
     </main>
 
     <aside class="row justify-content-center d-xl-none" data-aos="fade-up ">
-        <div class="buscador col-10 ">
-            <h3>Buscar</h3>
-        </div>
+        <input type="text" name="nombre" placeholder="Buscar" class="StyleDatos textoplaceholder mb-4 col-11 col-md-11 col-lg-11">
         <div class="row justify-content-center mb-4">
             <select name="filtro" class="col-11 filtro">
                 <option value="fpe">Filtrar por especie</option>
@@ -191,7 +232,7 @@
 
     <aside class="row justify-content-around align-items-center d-xl-none" data-aos="fade-up">
         <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
-            <a href="./perfil.html">
+            <a href="./gordon.html">
                 <img src="../assets/img/gordon_2.jpg" class="imgPosicionIzq">
                 <h3 class="textIncliIzq">Gordon</h3>
             </a>
@@ -203,9 +244,45 @@
             </a>
         </button>
         <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
-            <a href="./perfil.html">
+            <a href="./timoteo.html">
                 <img src="../assets/img/timoteo_4.jpeg" class="imgPosicionIzq">
                 <h3 class="textIncliIzq">Timoteo</h3>
+            </a>
+        </button>
+        <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+            <a href="./lennon.html">
+                <img src="../assets/img/lennon_4.jpg" class="imgPosicionIzq">
+                <h3 class="textIncliIzq">Lennon</h3>
+            </a>
+        </button>
+        <button class="recInclinadoDrch mt-3 mb-5 col-10 col-lg-4">
+            <a href="./rocco.html">
+                <img src="../assets/img/rocco_1.jpg" class="imgPosocionDrch">
+                <h3 class="textIncliDrch">Rocco</h3>
+            </a>
+        </button>
+        <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+            <a href="./pekas.html">
+                <img src="../assets/img/pekas_2.jpg" class="imgPosicionIzq">
+                <h3 class="textIncliIzq">Pekas</h3>
+            </a>
+        </button>
+        <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+            <a href="./nacho.html">
+                <img src="../assets/img/nacho_1.jpg" class="imgPosicionIzq">
+                <h3 class="textIncliIzq">Nacho</h3>
+            </a>
+        </button>
+        <button class="recInclinadoDrch mt-3 mb-5 col-10 col-lg-4">
+            <a href="./palmera.html">
+                <img src="../assets/img/palmera_5.jpg" class="imgPosocionDrch">
+                <h3 class="textIncliDrch">Palmera</h3>
+            </a>
+        </button>
+        <button class="recInclinadoIzq mt-3 mb-5 col-10 col-lg-4">
+            <a href="./pina.html">
+                <img src="../assets/img/pinon_1.jpg" class="imgPosicionIzq">
+                <h3 class="textIncliIzq">Piña</h3>
             </a>
         </button>
     </aside>
@@ -243,6 +320,5 @@
     <script>
         AOS.init();
     </script>
-    <!-- Final? -->
 </body>
 </html>

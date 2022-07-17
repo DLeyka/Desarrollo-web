@@ -74,6 +74,11 @@
     }
 }
 
+
+
+
+
+
 @media (min-width:992px) {
     .portadaInicioCel {
         background-image: $portadaG,url(../img/portada.png);
@@ -109,7 +114,18 @@
     }
 }
 
+
+
+
+
+
 @media (min-width:1200px) {
+    .portadaInicioCel {
+        background-image: $portadaG,url(../img/portada.png);
+        height: 600px;
+        background-size: cover;
+    }
+
     .coverAdopta {
         background-image: $portadaG,url(../img/adoptar.jpg);
         height: 500px;

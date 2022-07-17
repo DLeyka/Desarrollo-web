@@ -4,8 +4,17 @@
   padding: 0;
 }
 
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -14,8 +23,27 @@
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -24,6 +52,16 @@
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
 @media (min-width: 1200px) {
   nav div .menu li a {
     text-decoration: none;
@@ -33,7 +71,6 @@
     text-decoration: underline;
     color: #fff;
   }
-
   nav div .menu li {
     font-family: "Nunito";
     font-style: normal;
@@ -96,21 +133,18 @@
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular servicios */
   .coverServicio {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular nosotros */
   .coverNosotros {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular contacto */
   .coverContacto {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
@@ -124,27 +158,23 @@
     height: 450px;
     background-size: cover;
   }
-
   .coverAdopta {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular servicios */
   .coverServicio {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular nosotros */
   .coverNosotros {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
     height: 400px;
     background-size: cover;
   }
-
   /* Portada de celular contacto */
   .coverContacto {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
@@ -153,26 +183,28 @@
   }
 }
 @media (min-width: 1200px) {
+  .portadaInicioCel {
+    background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/portada.png);
+    height: 600px;
+    background-size: cover;
+  }
   .coverAdopta {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/adoptar.jpg);
     height: 500px;
     background-size: cover;
   }
-
   /* Portada de celular servicios */
   .coverServicio {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/servicios.jpg);
     height: 500px;
     background-size: cover;
   }
-
   /* Portada de celular nosotros */
   .coverNosotros {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/nosotros.jpg);
     height: 500px;
     background-size: cover;
   }
-
   /* Portada de celular contacto */
   .coverContacto {
     background-image: linear-gradient(rgba(55, 185, 198, 0.3), rgba(55, 185, 198, 0.5)), url(../img/contacto.jpg);
@@ -180,8 +212,17 @@
     background-size: cover;
   }
 }
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -190,11 +231,45 @@
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
 header div button a {
   text-decoration: none;
   color: #fff;
 }
 header div button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Perfil */
+.perfil {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 1px 70px;
+  color: #fff;
+  background: #E74F5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  border: 0;
+  margin: none;
+}
+
+.perfil:hover {
+  background-color: #37b9c6;
+  color: #fff;
+}
+.perfil:hover a {
   text-decoration: none;
   color: #fff;
 }
@@ -222,6 +297,7 @@ header div button a:hover {
 /* Bloque 2 Nuestros Héroes */
 .tamanoFlecha {
   width: 51px;
+  height: 51px;
   font-family: none;
   font-style: none;
   font-weight: none;
@@ -288,11 +364,12 @@ aside div .botonServicios a:hover {
 
 /* Botones de adoptar */
 .buscador {
+  width: 100%;
   font-family: none;
   font-style: none;
   font-weight: none;
   font-size: none;
-  padding: 10px 20px;
+  padding: none;
   color: none;
   background: #F5F5F5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -345,6 +422,20 @@ aside div .botonServicios a:hover {
   margin: 0;
 }
 
+.textoplaceholder {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 25px;
+  color: #ADBED9;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: 0;
+  margin: 0;
+}
+
 .mensaje {
   font-family: "Nunito";
   font-style: normal;
@@ -360,12 +451,49 @@ aside div .botonServicios a:hover {
   height: 410px;
 }
 
+.navbarCelular {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding: none;
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border-radius: none;
+  border: 0;
+  margin: 0;
+}
+
+.navbarCelular:hover {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding: none;
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border-radius: none;
+  border: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
 @media (min-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
   aside div .botonServicios a {
     text-decoration: none;
     color: #E74F5C;
   }
-
   .botonServicios {
     width: 250px;
     height: 250px;
@@ -389,13 +517,29 @@ aside div .botonServicios a:hover {
     text-shadow: none;
     text-align: center;
   }
+  .perfil {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 1px 70px;
+    color: #fff;
+    background: #E74F5C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    border: 0;
+    margin: none;
+  }
+  .perfil:hover {
+    background-color: #37b9c6;
+    color: #fff;
+  }
 }
 @media (min-width: 992px) {
   a {
     text-decoration: none;
     color: #fff;
   }
-
   .botonPrincipal {
     margin-left: 100px;
   }
@@ -405,11 +549,9 @@ aside div .botonServicios a:hover {
     text-decoration: none;
     color: #fff;
   }
-
   .botonPrincipal {
     margin-left: 100px;
   }
-
   .buscador2 {
     font-family: none;
     font-style: none;
@@ -423,7 +565,6 @@ aside div .botonServicios a:hover {
     border: 0;
     margin: 0 0 20px;
   }
-
   /* Botón de tarjeta derecha */
   .recInclinadoDrch {
     width: 219.44px;
@@ -434,7 +575,6 @@ aside div .botonServicios a:hover {
     border: 0;
     margin: 0 30px 0 30px;
   }
-
   /* Botón de tarjeta izquierda */
   .recInclinadoIzq {
     width: 219.44px;
@@ -446,8 +586,17 @@ aside div .botonServicios a:hover {
     margin: 0 30px 0 30px;
   }
 }
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -456,6 +605,16 @@ aside div .botonServicios a:hover {
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
 .accordionMenu {
   width: 90%;
   margin: 0 auto;
@@ -538,8 +697,17 @@ aside div .botonServicios a:hover {
   height: auto;
 }
 
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -548,6 +716,16 @@ aside div .botonServicios a:hover {
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
 /* Imagenes derecha */
 .imgPosocionDrch {
   width: 179.43px;
@@ -564,8 +742,8 @@ aside div .botonServicios a:hover {
 
 /* Perfil */
 .galeriaHeroe {
-  width: 297px;
-  height: 369px;
+  width: 501.68px;
+  height: 623.3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -575,8 +753,8 @@ aside div .botonServicios a:hover {
 }
 
 .galeriaHeroe img {
-  width: 254px;
-  height: 254px;
+  width: 439.4681px;
+  height: 439.4681px;
 }
 
 .flechaPerfil {
@@ -600,8 +778,33 @@ aside div .botonServicios a:hover {
   margin: 0px 73px 30px;
 }
 
+@media (max-width: 768px) {
+  .galeriaHeroe {
+    width: 297px;
+    height: 369px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .galeriaHeroe img {
+    width: 254px;
+    height: 254px;
+  }
+}
+/* Navbar */
 /* Textos */
 /* Colores */
+.colorFlechas {
+  color: #34B785;
+}
+
+.colorNavbar {
+  color: #fff;
+}
+
 /* Gradientes */
 /* Sombras */
 /* Rotaciones (inclinaciones) */
@@ -610,6 +813,16 @@ aside div .botonServicios a:hover {
 /* Botón de tarjeta derecha */
 /* Imagenes derecha */
 /* Imagenes derecha */
+/* Carrusel del inicio */
+.elPadding {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .elPadding {
+    padding: 0 100px 50px 100px;
+  }
+}
 .fondoTextNosotros {
   background: #F5F5F5;
   border-radius: 40px;
@@ -640,6 +853,17 @@ aside div .botonServicios a:hover {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: none;
   margin-top: -30px;
+}
+
+.textoDePortadas {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 65px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: none;
 }
 
 /* Bloque 1 Adopta */
@@ -779,7 +1003,6 @@ aside div .botonServicios a:hover {
     text-shadow: none;
     text-align: center;
   }
-
   .textoPrincipal {
     font-family: "Nunito";
     font-style: normal;
@@ -791,7 +1014,6 @@ aside div .botonServicios a:hover {
     text-align: none;
     padding-top: 10px;
   }
-
   /* Bloque 2 Nuestros Héroes */
   .textHeroes {
     font-family: "Nunito";
@@ -803,7 +1025,6 @@ aside div .botonServicios a:hover {
     text-shadow: none;
     text-align: none;
   }
-
   /* Conoce a Lovely Pets */
   .tituloPrincipalLove {
     font-family: "Nunito";
@@ -815,7 +1036,6 @@ aside div .botonServicios a:hover {
     text-shadow: none;
     text-align: center;
   }
-
   /* Servicio de Lovely Pets */
   .tituloServiciosCel {
     font-family: "Nunito";
@@ -841,7 +1061,6 @@ aside div .botonServicios a:hover {
     margin-top: 210px;
     margin-left: 100px;
   }
-
   .textoPortada2 {
     font-family: "Nunito";
     font-style: normal;
@@ -854,6 +1073,16 @@ aside div .botonServicios a:hover {
     margin-top: -30px;
     margin-left: 100px;
   }
+  .textoDePortadas {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: none;
+  }
 }
 @media (min-width: 1200px) {
   .fondoFiltros {
@@ -863,22 +1092,9 @@ aside div .botonServicios a:hover {
     border-radius: 20px;
     margin-bottom: 30px;
   }
-
-  .textoBuscador {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: none;
-    color: #2B3443;
-    text-shadow: none;
-    text-align: none;
-  }
-
   .contenedorFiltros {
     margin: 10px 0;
   }
-
   .listaNombres {
     font-family: "Nunito";
     font-style: normal;
@@ -889,7 +1105,6 @@ aside div .botonServicios a:hover {
     text-shadow: none;
     text-align: none;
   }
-
   .titulosDeFiltros {
     font-family: "Nunito";
     font-style: normal;
